@@ -1,0 +1,50 @@
+.side-nav {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+.nav-title {
+    /* font-weight: 200; */
+    font-size: 3.5rem;
+}
+
+/* .title-box {
+    border-bottom: 1px solid rgb(0, 0, 0);
+} */
+
+
+
+.main-nav-link {
+    color: black;
+    margin: 4% 0;
+    font-size: 1.2vw;
+    font-weight: 400;
+    border-radius: 15px;
+    font-weight: 500;
+
+}
+
+.main-nav-link:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.151), 0 5px 10px 0 rgba(0, 0, 0, 0.171);
+}
+
+.main-nav-link:focus {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.151), 0 5px 10px 0 rgba(0, 0, 0, 0.171);
+}
+
+.main-nav-link:active {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.151), 0 5px 10px 0 rgba(0, 0, 0, 0.171);
+}
+
+.active{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.151), 0 5px 10px 0 rgba(0, 0, 0, 0.171);
+
+}

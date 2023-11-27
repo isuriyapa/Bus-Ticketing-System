@@ -1,0 +1,69 @@
+.clear {
+    padding: 0;
+    margin: 0;
+}
+
+.main-bg{
+    background-color: #dfdfdf;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(245, 245, 245);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #88888800; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #55555500; 
+  }
+
+.main-header {
+    height: 15vh;
+    border-bottom: 1px solid black;
+    margin: 0 5%;
+    align-items: center;
+
+    
+}
+
+.main-header h1 {
+    font-weight: 200;
+}
+
+.main-header h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.profile-pic {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+
+.main-page {
+    height: 85vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.curve-input {
+    border-radius: 20px;
+}
+
+.btn-curve {
+    border-radius: 20px;
+}
